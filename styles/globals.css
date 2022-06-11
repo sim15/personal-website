@@ -1,16 +1,82 @@
+html {
+  background: #fdfdfd;
+}
 html,
 body {
-  padding: 0;
+  padding: 4rem 20% 1rem 20%;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: Segoe UI, -apple-system, BlinkMacSystemFont, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
   color: inherit;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 * {
   box-sizing: border-box;
+}
+
+.navWrapper {
+  text-align: center;
+}
+
+.navWrapper > * {
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: normal;
+  margin: 0;
+  font-size: 2rem;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 1.2rem;
+  margin: .5rem 0;
+}
+
+p {
+  font-weight: 400;
+  /* font-size: 1.2rem; */
+  padding-left: 1rem;
+}
+
+.emphHeader {
+  font-size: 1rem;
+  margin: 0;
+  font-weight: 300;
+}
+
+.mainBody {
+  padding: 1rem 0;
+}
+
+br {
+  line-height: 250%;
+}
+
+
+
+/* .projectItem:hover {
+  background-color: #B0B0B0;
+} */
+
+.svgContainer svg {
+  height: 100%;
+  margin-top: 0.2rem;
+  /* width: auto; */
+}
+
+.svgContainer {
+  width: 100%;
+  height: 1.1rem;
+  /* position: absolute; */
+
+}
+
+.noteContainer {
+  /* position: relative; */
 }
